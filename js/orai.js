@@ -32,7 +32,7 @@ function orai(data) {
     if (krituliusuma <= 50) {
         return "Ganetinai sausa savaite"
     };
-    if ((krituliusuma <= 200) {
+    if (krituliusuma <= 200) {
         return "Lietinga savaite"
     };
     return "Labai daug lietaus";
@@ -45,7 +45,7 @@ const xc = 0;
 const xd = 0;
 const xe = 0;
 
-console.log($krituliusSuma), '->', orai(a));
+console.log($krituliusSuma), '->', orai(a);
 console.log(orai(b));
 console.log(orai(c));
 console.log(orai(d));

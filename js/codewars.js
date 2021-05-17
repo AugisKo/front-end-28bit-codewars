@@ -32,7 +32,7 @@ function differenceInAges(ages){
       if (ages[i] < young) {
         young = ages[i];
       }
-      if (ages[i] >old){
+      if (ages[i] > old){
         old = ages[i];
       }
     }
